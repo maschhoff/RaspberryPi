@@ -1,0 +1,8 @@
+# On Kernel 4.19 and > Change
+#dtoverlay=lirc-rpi,gpio_in_pin=23,gpio_out_pin=24
+
+#To
+dtoverlay=gpio-ir-tx,gpio_pin=24 
+dtoverlay=gpio-ir,gpio_pin=23
+
+#And change lirc_options.conf to driver=default

@@ -1,4 +1,5 @@
 #Require to intall apt-get install pv and to install https://github.com/Drewsif/PiShrink
+#Change pv -s (Size) to your SD Card size
 
 #!/bin/bash
 echo "Backup Raspberry"
